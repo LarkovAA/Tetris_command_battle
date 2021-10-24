@@ -1,6 +1,7 @@
 let starting_the_automatic_movement_of_the_shape = true
 let further = false
 let dict_coloringField = {}
+let move = true
 /*
     Функция определяет все элементы с классом shape
     Так же функция удалает данный класс из всех элементов

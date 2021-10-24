@@ -7,7 +7,6 @@ function downward_movement() {
     }
     else {
         check_became_figure_for_the_occupied_position()
-        console.log(dict_coloringField)
         clearInterval(interval_downward_movement)
     }
 }
