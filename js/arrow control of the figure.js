@@ -3,8 +3,7 @@ document.addEventListener('keyup', function (event) {
         let move = true
         for (el in shape) {
             for (dc in dict_coloringField) {
-                if (((shape[el][0] - 1) < 0) || ((shape[el][0] - 1 == dict_coloringField[dc][0]) && (shape[el][1] == dict_coloringField[dc][1])) ||
-                    ((shape[el][0] + 1 == dict_coloringField[dc][0]) && (shape[el][1] == dict_coloringField[dc][1]))) {
+                if (((shape[el][0] - 1) < 0) || ((shape[el][0] - 1 == dict_coloringField[dc][0]) && (shape[el][1] == dict_coloringField[dc][1]))) {
                     move = false
 
                 }
@@ -25,8 +24,7 @@ document.addEventListener('keyup', function (event) {
         let move = true
         for (el in shape) {
             for (dc in dict_coloringField) {
-                if (((shape[el][0] - 1) < 0) || ((shape[el][0] - 1 == dict_coloringField[dc][0]) && (shape[el][1] == dict_coloringField[dc][1])) ||
-                    ((shape[el][0] + 1 == dict_coloringField[dc][0]) && (shape[el][1] == dict_coloringField[dc][1]))) {
+                if (((shape[el][0] - 1) < 0) || ((shape[el][0] + 1 == dict_coloringField[dc][0]) && (shape[el][1] == dict_coloringField[dc][1]))) {
                     move = false
 
                 }
